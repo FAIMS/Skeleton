@@ -903,40 +903,40 @@
     <property name="Position of Upper Limbs" type="vocab">
       <description/>
       <lookup>
-        <term>{ou}
+        <term pictureURL="files/data/gallery/ou.png">{ou}
 <description/></term>
-        <term>{Lc}
+        <term pictureURL="files/data/gallery/lc.png">{Lc}
 <description/></term>
-        <term>{90_}
+        <term pictureURL="files/data/gallery/90.png">{90_}
 <description/></term>
-        <term>{120_}
+        <term pictureURL="files/data/gallery/120.png">{120_}
 <description/></term>
-        <term>{EC}
+        <term pictureURL="files/data/gallery/ec.png">{EC}
 <description/></term>
-        <term>{RP}
+        <term pictureURL="files/data/gallery/rp.png">{RP}
 <description/></term>
-        <term>{140_}
+        <term pictureURL="files/data/gallery/140.png">{140_}
 <description/></term>
       </lookup>
     </property>
     <property name="Position of Lower Limbs" type="vocab">
       <description/>
       <lookup>
-        <term>{Ex}
+        <term pictureURL="files/data/gallery/ex.png">{Ex}
 <description/></term>
-        <term>{CR}
+        <term pictureURL="files/data/gallery/cr.png">{CR}
 <description/></term>
-        <term>{CJ}
+        <term pictureURL="files/data/gallery/cj.png">{CJ}
 <description/></term>
-        <term>{ED}
+        <term pictureURL="files/data/gallery/ed.png">{ED}
 <description/></term>
-        <term>{CJD}
+        <term pictureURL="files/data/gallery/cjd.png">{CJD}
 <description/></term>
-        <term>{DE}
+        <term pictureURL="files/data/gallery/de.png">{DE}
 <description/></term>
-        <term>{Dpd}
+        <term pictureURL="files/data/gallery/dpd.png">{Dpd}
 <description/></term>
-        <term>{Dpg}
+        <term pictureURL="files/data/gallery/dpg.png">{Dpg}
 <description/></term>
       </lookup>
     </property>
