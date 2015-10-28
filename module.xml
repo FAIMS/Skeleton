@@ -122,7 +122,7 @@
       </opts>
     </Position_of_Legs>
     <Position_of_Limbs_File t="file"/>
-    <Position_of_Limbs_Photograph t="image"/>
+    <Position_of_Limbs_Photograph t="camera"/>
   </Skeleton>
   <Long_Bone_Length>
     <cols>
@@ -634,7 +634,7 @@
     <Placement/>
     <Description/>
     <Inventory>Inventory #</Inventory>
-    <Artefact_Photograph t="image"/>
+    <Artefact_Photograph t="camera"/>
   </Artefact>
 </Artefact>
 </module>
