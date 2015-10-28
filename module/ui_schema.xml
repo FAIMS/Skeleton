@@ -263,11 +263,11 @@
         </input>
       </group>
     </group>
-    <group ref="User">
+    <group ref="User" >
       <label>{User}</label>
-      <group ref="User">
+      <group ref="User" faims_scrollable="false">
         <label>{User}</label>
-        <select1 appearance="compact" ref="Select_User">
+        <select1 appearance="compact" ref="Select_User" faims_certainty="false" faims_annotation="false">
           <label>{Select_User}</label>
           <item>
             <label>Options not loaded</label>
