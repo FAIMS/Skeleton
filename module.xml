@@ -554,25 +554,25 @@
     </cols>
     <Position_of_Upper_Limbs t="picture">
       <opts>
-        <opt>ou</opt>
-        <opt>Lc</opt>
-        <opt>90°</opt>
-        <opt>120°</opt>
-        <opt>EC</opt>
-        <opt>RP</opt>
-        <opt>140°</opt>
+        <opt p="gallery/ou.png">ou</opt>
+        <opt p="gallery/lc.png">Lc</opt>
+        <opt p="gallery/90.png">90°</opt>
+        <opt p="gallery/120.png">120°</opt>
+        <opt p="gallery/ec.png">EC</opt>
+        <opt p="gallery/rp.png">RP</opt>
+        <opt p="gallery/140.png">140°</opt>
       </opts>
     </Position_of_Upper_Limbs>
     <Position_of_Lower_Limbs t="picture">
       <opts>
-        <opt>Ex</opt>
-        <opt>CR</opt>
-        <opt>CJ</opt>
-        <opt>ED</opt>
-        <opt>CJD</opt>
-        <opt>DE</opt>
-        <opt>Dpd</opt>
-        <opt>Dpg</opt>
+        <opt p="gallery/ex.png">Ex</opt>
+        <opt p="gallery/cr.png">CR</opt>
+        <opt p="gallery/cj.png">CJ</opt>
+        <opt p="gallery/ed.png">ED</opt>
+        <opt p="gallery/cjd.png">CJD</opt>
+        <opt p="gallery/de.png">DE</opt>
+        <opt p="gallery/dpd.png">Dpd</opt>
+        <opt p="gallery/dpg.png">Dpg</opt>
       </opts>
     </Position_of_Lower_Limbs>
     <Coxal_Position t="radio">
