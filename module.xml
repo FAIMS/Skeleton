@@ -537,8 +537,6 @@
     <Add_Migration t="button" lc="Bone_Migration"/>
     <Load_Migration t="list" ec="Bone_Migration"/>
   </Bone_Migration>
-  <State_of_Joints>
-  </State_of_Joints>
   <Position_of_Limbs>
     <cols>
       <col>
