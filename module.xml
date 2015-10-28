@@ -601,7 +601,7 @@
       </col>
     </cols>
   </Scapula_Clavicle_Position>
-  <Artefact>
+  <Artefact f="noscroll">
     <Add_Artefact t="button" lc="Artefact" />
     <Load_Artefact t="list" ec="Artefact" />
   </Artefact>
