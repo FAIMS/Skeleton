@@ -1,39 +1,5 @@
 <?xml version="1.0" ?>
 <module suppressWarnings="false">
-<rels>
-  <RelationshipElement name="Chronologically Precedes" type="hierarchical">
-    <description></description>
-    <parent>Precedes</parent>
-    <child>Preceded By</child>
-  </RelationshipElement>
-  <RelationshipElement name="Fills" type="hierarchical">
-    <description></description>
-    <parent>Fills</parent>
-    <child>Filled By</child>
-  </RelationshipElement>
-  <RelationshipElement name="Cuts" type="hierarchical">
-    <description></description>
-    <parent>Cuts</parent>
-    <child>Cut By</child>
-  </RelationshipElement>
-  <RelationshipElement name="Covers" type="hierarchical">
-    <description></description>
-    <parent>Covers</parent>
-    <child>Covered By</child>
-  </RelationshipElement>
-  <RelationshipElement name="Contemporary With" type="bidirectional">
-    <description></description>
-  </RelationshipElement>
-  <RelationshipElement name="Relation Uncertain" type="bidirectional">
-    <description></description>
-  </RelationshipElement>
-  <RelationshipElement name="Is Synchronous" type="bidirectional">
-    <description></description>
-  </RelationshipElement>
-  <RelationshipElement name="Identic" type="bidirectional">
-    <description></description>
-  </RelationshipElement>
-</rels>
 
 <User f="nodata">
   <User>
@@ -48,62 +14,6 @@
   </Main>
   <search>Search All Records</search>
 </Control>
-
-<!--<Dendera>-->
-  <!--<Main>-->
-    <!--<Dendera_ID f="id autonum"/>-->
-    <!--<Mastaba/>-->
-    <!--<Object/>-->
-    <!--<Stratigraphic_Unit/>-->
-    <!--<author>User</author>-->
-    <!--<timestamp>Date</timestamp>-->
-    <!--<Sketch_1 t="camera">Sketch</Sketch_1>-->
-    <!--<Theodolite/>-->
-    <!--<Type>-->
-      <!--<opts>-->
-        <!--<opt>Positive</opt>-->
-        <!--<opt>Negative</opt>-->
-        <!--<opt>Artificial</opt>-->
-        <!--<opt>Built</opt>-->
-      <!--</opts>-->
-    <!--</Type>-->
-    <!--<Photo t="radio">-->
-      <!--<opts>-->
-        <!--<opt>Yes</opt>-->
-        <!--<opt>No</opt>-->
-      <!--</opts>-->
-    <!--</Photo>-->
-    <!--<Elevation_superior_max/>-->
-    <!--<Elevation_superior_min/>-->
-    <!--<Elevation_inferior_max/>-->
-    <!--<Elevation_inferior_min/>-->
-    <!--<Dimensions/>-->
-    <!--<Heading_Direction>Heading/Direction</Heading_Direction>-->
-    <!--<Thickness/>-->
-    <!--<Description/>-->
-    <!--<Sketch_2 t="camera">Sketch</Sketch_2>-->
-  <!--</Main>-->
-  <!--<Inventory>-->
-    <!--<Inventory>-->
-      <!--<opts>-->
-        <!--<opt>Pottery</opt>-->
-        <!--<opt>Vase</opt>-->
-        <!--<opt>Leather</opt>-->
-        <!--<opt>Ivory</opt>-->
-        <!--<opt>Bones</opt>-->
-        <!--<opt>Flint</opt>-->
-        <!--<opt>Timber, Organic</opt>-->
-        <!--<opt>Construction Material</opt>-->
-        <!--<opt>Seals</opt>-->
-        <!--<opt>Other</opt>-->
-      <!--</opts>-->
-    <!--</Inventory>-->
-  <!--</Inventory>-->
-  <!--<Interpretation>-->
-    <!--[>TODO: These should be relationships or something<]-->
-    <!--<Interpretation/>-->
-  <!--</Interpretation>-->
-<!--</Dendera>-->
 
 <Tomb>
   <Tomb>
@@ -211,7 +121,8 @@
         <opt>Missing</opt>
       </opts>
     </Position_of_Legs>
-    <Position_of_Members t="file"/>
+    <Position_of_Limbs_File t="file"/>
+    <Position_of_Limbs_Photograph t="image"/>
   </Skeleton>
   <Long_Bone_Length>
     <cols>
@@ -233,7 +144,7 @@
       </col>
     </cols>
   </Long_Bone_Length>
-  <State_of_Preservation>
+  <Condition>
     <Skeleton t="radio">
       <opts>
         <opt>Complete</opt>
@@ -248,23 +159,6 @@
         <opt>Bad</opt>
       </opts>
     </Bones>
-  </State_of_Preservation>
-  <Elevation>
-    <Top_of_the_Grave/>
-    <Top_of_the_Skeleton/>
-    <Bottom_of_Skeleton/>
-    <Grave_Bottom_Base>Grave Bottom/Base</Grave_Bottom_Base>
-    <Other/>
-    <Skull/>
-    <Pelvis_Coxxigis>Pelvis/Coxxigis</Pelvis_Coxxigis>
-    <Feet/>
-    <Elevation_Notes/>
-  </Elevation>
-  <Bone_Migration f="noscroll">
-    <Add_Migration t="button" lc="Bone_Migration"/>
-    <Load_Migration t="list" ec="Bone_Migration"/>
-  </Bone_Migration>
-  <State_of_Joints>
     <Occipital_-_Atlas_Joint t="radio">
       <opts>
         <opt>Strict</opt>
@@ -627,6 +521,23 @@
     </Place_of_Corpse_Decomposition>
     <Skull_Position/>
     <Position_Moved_Mandible>Position/Moved Mandible</Position_Moved_Mandible>
+  </Condition>
+  <Elevation>
+    <Top_of_the_Grave/>
+    <Top_of_the_Skeleton/>
+    <Bottom_of_Skeleton/>
+    <Grave_Bottom_Base>Grave Bottom/Base</Grave_Bottom_Base>
+    <Other/>
+    <Skull/>
+    <Pelvis_Coxxigis>Pelvis/Coxxigis</Pelvis_Coxxigis>
+    <Feet/>
+    <Elevation_Notes/>
+  </Elevation>
+  <Bone_Migration f="noscroll">
+    <Add_Migration t="button" lc="Bone_Migration"/>
+    <Load_Migration t="list" ec="Bone_Migration"/>
+  </Bone_Migration>
+  <State_of_Joints>
   </State_of_Joints>
   <Position_of_Limbs>
     <cols>
@@ -643,25 +554,29 @@
         <Right_Foot_position/>
       </col>
     </cols>
-    <Position_of_Limbs t="picture">
+    <Position_of_Upper_Limbs t="picture">
       <opts>
         <opt>ou</opt>
-        <opt>90°</opt>
-        <opt>EC</opt>
-        <opt>140°</opt>
         <opt>Lc</opt>
+        <opt>90°</opt>
         <opt>120°</opt>
+        <opt>EC</opt>
         <opt>RP</opt>
+        <opt>140°</opt>
+      </opts>
+    </Position_of_Upper_Limbs>
+    <Position_of_Lower_Limbs t="picture">
+      <opts>
         <opt>Ex</opt>
         <opt>CR</opt>
         <opt>CJ</opt>
         <opt>ED</opt>
         <opt>CJD</opt>
         <opt>DE</opt>
-        <opt>Ppd</opt>
+        <opt>Dpd</opt>
         <opt>Dpg</opt>
       </opts>
-    </Position_of_Limbs>
+    </Position_of_Lower_Limbs>
     <Coxal_Position t="radio">
       <opts>
         <opt>Open</opt>
@@ -687,8 +602,15 @@
         <Right_Clavicle_Position/>
       </col>
     </cols>
-    <Decomposition_Commentary/>
   </Scapula_Clavicle_Position>
+  <Artefact>
+    <Add_Artefact t="button" lc="Artefact" />
+    <Load_Artefact t="list" ec="Artefact" />
+  </Artefact>
+  <Interpretation>
+    <Decomposition_Commentary/>
+    <Final_Comments/>
+  </Interpretation>
 </Burial>
 
 <Impact>
@@ -700,24 +622,19 @@
 
 <Bone_Migration>
   <Bone_Migration>
-    <Mandible_Migration f="id notnull"/>
-    <Manubriumible_Migration f="id notnull"/>
-    <Sternumible_Migration f="id notnull"/>
-    <cols>
-      <Left_Patellaible_Migration f="id notnull"/>
-      <Right_Patellaible_Migration f="id notnull"/>
-    </cols>
+    <Type_of_Bone f="id notnull"/>
+    <Description_of_Migration/>
   </Bone_Migration>
 </Bone_Migration>
-<!--<Grave_Inventory>-->
-  <!--<Grave_Inventory>-->
-    <!--<Number f="id"/>-->
-    <!--<Material/>-->
-    <!--<Localisation/>-->
-    <!--<Description/>-->
-    <!--<Inventory/>-->
-    <!--<Picture/>-->
-    <!--<Remarks_and_Commentary/>-->
-  <!--</Grave_Inventory>-->
-<!--</Grave_Inventory>-->
+
+<Artefact>
+  <Artefact>
+    <Number f="id notnull"/>
+    <Material f="id notnull"/>
+    <Placement/>
+    <Description/>
+    <Inventory>Inventory #</Inventory>
+    <Artefact_Photograph t="image"/>
+  </Artefact>
+</Artefact>
 </module>
