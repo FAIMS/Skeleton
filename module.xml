@@ -2,8 +2,8 @@
 <module suppressWarnings="false">
 
 <User f="nodata">
-  <User>
-    <Select_User t="list" f="user" l="Control"/>
+  <User f="noscroll">
+    <Select_User t="list" f="user nocertainty noannotation" l="Control"/>
   </User>
 </User>
 
