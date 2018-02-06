@@ -27,7 +27,7 @@ The module can be downloaded from this GitHub repository.
 * module translation into French
 
 ## This module can be used with no or minor modification for:
-* anthropologic documenting of human remains during archaeological excavation (necropolis or singla grave)
+* anthropologic documenting of human remains during archaeological excavation (necropolis or single grave)
 
 ## Contact info:
 For more details about the **Dendera Project** please, contact Dr Yann Tristant at yann.tristant@mq.edu.au.
